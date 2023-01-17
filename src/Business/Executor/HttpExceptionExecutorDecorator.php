@@ -31,7 +31,12 @@ readonly class HttpExceptionExecutorDecorator implements RouteExecutorInterface
     public function execute(Request $request, bool $flush = true): Response
     {
         try {
-            return $this->decorated->execute($request, $flush);
+            $response = $this->decorated->execute($request, false);
+            if ($flush) {
+                $response->send();
+            }
+
+            return $response;
         } catch (\Throwable $throwable) {
             if (!($throwable instanceof HttpException)) {
                 $throwable = new HttpInternalServerException('Internal Server Error.', $throwable);
