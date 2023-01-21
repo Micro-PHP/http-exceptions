@@ -39,7 +39,7 @@ class HttpExceptionResponsePlugin implements DependencyProviderInterface, Plugin
     {
         $container->decorate(HttpFacadeInterface::class, function (
             HttpFacadeInterface $httpFacade
-        ) {
+        ): HttpFacadeInterface {
             $this->httpFacade = $httpFacade;
 
             return $this->createDecorator();
