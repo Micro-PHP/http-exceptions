@@ -11,10 +11,10 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http\Test\Unit\Business\Executor;
+namespace Micro\Plugin\HttpExceptions\Tests\Unit\Business\Executor;
 
-use Micro\Plugin\Http\Business\Executor\HttpExceptionExecutorDecoratorFactory;
-use Micro\Plugin\Http\Business\Executor\RouteExecutorInterface;
+use Micro\Plugin\HttpExceptions\Business\Executor\HttpExceptionExecutorDecoratorFactory;
+use Micro\Plugin\HttpCore\Business\Executor\RouteExecutorInterface;
 use PHPUnit\Framework\TestCase;
 
 /**

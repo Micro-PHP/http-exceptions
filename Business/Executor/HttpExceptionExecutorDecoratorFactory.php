@@ -11,7 +11,9 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http\Business\Executor;
+namespace Micro\Plugin\HttpExceptions\Business\Executor;
+
+use \Micro\Plugin\HttpCore\Business\Executor\RouteExecutorFactoryInterface;
 
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>

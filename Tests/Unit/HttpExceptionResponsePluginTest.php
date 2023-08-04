@@ -11,15 +11,15 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http\Test\Unit;
+namespace Micro\Plugin\HttpExceptions\Tests\Unit;
 
-use Micro\Component\DependencyInjection\Container;
-use Micro\Framework\Kernel\Configuration\ApplicationConfigurationInterface;
-use Micro\Plugin\Http\Decorator\ExceptionResponseBuilderDecorator;
-use Micro\Plugin\Http\Facade\HttpFacadeInterface;
-use Micro\Plugin\Http\HttpCorePlugin;
-use Micro\Plugin\Http\HttpExceptionResponsePlugin;
-use Micro\Plugin\Http\HttpExceptionResponsePluginConfiguration;
+use Micro\Framework\DependencyInjection\Container;
+use Micro\Framework\BootConfiguration\Configuration\ApplicationConfigurationInterface;
+use Micro\Plugin\HttpExceptions\Decorator\ExceptionResponseBuilderDecorator;
+use Micro\Plugin\HttpCore\Facade\HttpFacadeInterface;
+use Micro\Plugin\HttpCore\HttpCorePlugin;
+use Micro\Plugin\HttpExceptions\HttpExceptionResponsePlugin;
+use Micro\Plugin\HttpExceptions\HttpExceptionResponsePluginConfiguration;
 use PHPUnit\Framework\TestCase;
 
 /**

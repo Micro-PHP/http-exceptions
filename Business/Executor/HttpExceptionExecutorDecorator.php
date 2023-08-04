@@ -11,10 +11,10 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http\Business\Executor;
+namespace Micro\Plugin\HttpExceptions\Business\Executor;
 
-use Micro\Plugin\Http\Exception\HttpException;
-use Micro\Plugin\Http\Exception\HttpInternalServerException;
+use Micro\Plugin\HttpCore\Exception\HttpException;
+use Micro\Plugin\HttpCore\Exception\HttpInternalServerException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

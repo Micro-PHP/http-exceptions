@@ -11,7 +11,7 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http\Configuration;
+namespace Micro\Plugin\HttpExceptions\Configuration;
 
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>

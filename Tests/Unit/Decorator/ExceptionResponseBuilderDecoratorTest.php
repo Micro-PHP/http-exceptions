@@ -11,14 +11,14 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http\Test\Unit\Decorator;
+namespace Micro\Plugin\HttpExceptions\Tests\Unit\Decorator;
 
-use Micro\Plugin\Http\Business\Executor\RouteExecutorFactoryInterface;
-use Micro\Plugin\Http\Business\Executor\RouteExecutorInterface;
-use Micro\Plugin\Http\Business\Route\RouteBuilderInterface;
-use Micro\Plugin\Http\Business\Route\RouteInterface;
-use Micro\Plugin\Http\Decorator\ExceptionResponseBuilderDecorator;
-use Micro\Plugin\Http\Facade\HttpFacadeInterface;
+use Micro\Plugin\HttpCore\Business\Executor\RouteExecutorFactoryInterface;
+use Micro\Plugin\HttpCore\Business\Executor\RouteExecutorInterface;
+use Micro\Plugin\HttpCore\Business\Route\RouteBuilderInterface;
+use Micro\Plugin\HttpCore\Business\Route\RouteInterface;
+use Micro\Plugin\HttpExceptions\Decorator\ExceptionResponseBuilderDecorator;
+use Micro\Plugin\HttpCore\Facade\HttpFacadeInterface;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
