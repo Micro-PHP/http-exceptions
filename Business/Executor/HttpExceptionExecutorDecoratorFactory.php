@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Micro\Plugin\HttpExceptions\Business\Executor;
 
 use \Micro\Plugin\HttpCore\Business\Executor\RouteExecutorFactoryInterface;
+use Micro\Plugin\HttpCore\Business\Executor\RouteExecutorInterface;
 
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>

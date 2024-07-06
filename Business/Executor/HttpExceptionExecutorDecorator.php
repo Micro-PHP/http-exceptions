@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace Micro\Plugin\HttpExceptions\Business\Executor;
 
+use Micro\Plugin\HttpCore\Business\Executor\RouteExecutorInterface;
 use Micro\Plugin\HttpCore\Exception\HttpException;
 use Micro\Plugin\HttpCore\Exception\HttpInternalServerException;
 use Symfony\Component\HttpFoundation\Request;

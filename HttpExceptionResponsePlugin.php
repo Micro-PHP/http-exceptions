@@ -18,6 +18,7 @@ use Micro\Framework\BootConfiguration\Plugin\ConfigurableInterface;
 use Micro\Framework\BootDependency\Plugin\DependencyProviderInterface;
 use Micro\Framework\BootConfiguration\Plugin\PluginConfigurationTrait;
 use Micro\Framework\BootPluginDependent\Plugin\PluginDependedInterface;
+use Micro\Plugin\HttpCore\HttpCorePlugin;
 use Micro\Plugin\HttpExceptions\Business\Executor\HttpExceptionExecutorDecoratorFactory;
 use Micro\Plugin\HttpCore\Business\Executor\RouteExecutorFactoryInterface;
 use Micro\Plugin\HttpExceptions\Configuration\HttpExceptionResponsePluginConfigurationInterface;
